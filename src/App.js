@@ -1,14 +1,7 @@
-import './App.css';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import Nav from './components/Nav/Nav';
-
+import Layout from "./components/Layout/Layout";
 
 function App() {
-  return (
-    <>
-    <Nav />
-    <ItemListContainer />
-    </>
-  )
+  return <Layout />;
 }
-export default App
+
+export default App;
