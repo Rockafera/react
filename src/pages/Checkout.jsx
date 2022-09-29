@@ -11,7 +11,6 @@ const Checkout = () => {
   const [enterEmail, setEnterEmail] = useState("");
   const [enterNumber, setEnterNumber] = useState("");
   const [enterAddress, setEnterAddress] = useState("");
-  const [enterCity, setEnterCity] = useState("");
   const [postalCode, setPostalCode] = useState("");
 
   const shippingInfo = [];
@@ -27,7 +26,6 @@ const Checkout = () => {
       email: enterEmail,
       phone: enterNumber,
       country: enterAddress,
-      city: enterCity,
       postalCode: postalCode,
     };
 
